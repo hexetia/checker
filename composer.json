@@ -1,0 +1,15 @@
+{
+    "name"       : "lucasljj/checker",
+    "description": "Verifica se links de famosos(ou não tão) filehosts estão online",
+    "type"       : "library",
+    "license"    : "GPL-2.0+",
+    
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Checker\\": "src"
+        }
+    }
+}
