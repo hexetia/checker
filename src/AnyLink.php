@@ -21,7 +21,7 @@ class AnyLink implements CheckInterface
      *
      * @inheritdoc
      */
-    public static function isOnline(string $url): boolean
+    public static function isOnline(string $url): bool
     {
         try {
             switch ($url) {

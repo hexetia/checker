@@ -27,7 +27,7 @@ class Mega implements CheckInterface
      * @param string $url
      * @return bool
      */
-    public static function isOnline(string $url): boolean
+    public static function isOnline(string $url): bool
     {
         preg_match('/\!(.*?)\!(.*)/', $url, $matches);
 

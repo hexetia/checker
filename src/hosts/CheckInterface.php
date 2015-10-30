@@ -9,5 +9,5 @@ interface CheckInterface
      * @param string $url
      * @return string
      */
-    static function isOnline(string $url): string;
+    static function isOnline(string $url): bool;
 }

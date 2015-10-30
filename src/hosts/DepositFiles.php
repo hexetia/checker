@@ -8,7 +8,7 @@ class DepositFiles implements CheckInterface
     /**
      * @inheritdoc
      */
-    public static function isOnline(string $url): boolean
+    public static function isOnline(string $url): bool
     {
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
