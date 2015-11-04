@@ -17,7 +17,7 @@ class UolVideos implements CheckInterface
         $result = curl_exec($ch);
         curl_close($ch);
 
-        if($result && $result !== '' && !strpos($result, '<span class="code">') && !strpos($result, 'encontrada')) {
+        if($result && $result !== '' && !strpos($result, 'msg error')) {
             return true;
         } else {
             return false;

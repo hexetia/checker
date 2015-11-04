@@ -1,6 +1,6 @@
 {
     "name"       : "lucasljj/checker",
-    "description": "Verifica se links de famosos(ou não tão) filehosts estão online",
+    "description": "Upload em famosos(ou não tão) filehosts",
     "type"       : "library",
     "license"    : "GPL-2.0+",
     
